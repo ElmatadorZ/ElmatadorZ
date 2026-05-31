@@ -41,22 +41,33 @@ protocols that run on any instruction-following model.
 ## The architecture
 
 ```
-                    ┌─────────────────────────────────────────┐
-                    │   FIRST PRINCIPLE CODEX OS  (FPCOS)       │
-                    │   Reality Anchor · Kalama10 · Ariya4 ·    │
-                    │   System Lens · Shadow Gate · Synthesis   │
-                    │   ── the shared epistemology (the CPU) ── │
-                    └─────────────────────────────────────────┘
-                                      ▲   inherited by
-            ┌───────────────┬─────────┴────────┬──────────────────┐
-            │               │                  │                  │
-   ┌────────────────┐ ┌─────────────┐ ┌─────────────────┐ ┌──────────────┐
-   │  Genesis Mind  │ │ Money Atlas │ │ Genesis         │ │ Alternative  │
-   │  multi-agent   │ │ SMC market  │ │ Consciousness   │ │ Coffee       │
-   │  reasoning     │ │ intelligence│ │ OS (emotion     │ │ Intelligence │
-   │                │ │             │ │ as data layer)  │ │ seed→cup     │
-   └────────────────┘ └─────────────┘ └─────────────────┘ └──────────────┘
-        domain applications — same OS underneath, different problem space
+        ┌──────────────────────────────┐
+        │   FIRST PRINCIPLE CODEX OS    │
+        │           (FPCOS)            │
+        │                              │
+        │   Reality Anchor · Kalama10  │
+        │   Ariya4 · System Lens       │
+        │   Shadow Gate · Synthesis    │
+        │                              │
+        │   the shared epistemology    │
+        │         — the CPU —          │
+        └──────────────────────────────┘
+                      │
+              inherited by ↓
+                      │
+   ┌──────────────────┼──────────────────┐
+   │                  │                  │
+   ▼                  ▼                  ▼
+ Genesis Mind     Money Atlas      Genesis
+ multi-agent      SMC market       Conscious-
+ reasoning        intelligence     ness OS
+   │                  │                  │
+   └──────────────────┼──────────────────┘
+                      ▼
+              Alternative Coffee
+              Intelligence · seed→cup
+
+   domain applications — same OS underneath
 ```
 
 The base layer cannot be removed by any skill that inherits it. Domain skills may add
