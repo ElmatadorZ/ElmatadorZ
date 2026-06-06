@@ -1,389 +1,162 @@
-Bunyawat Dechanon (ElmatadorZ)
+<!--
+  Profile README — github.com/ElmatadorZ
+  Repo name MUST be exactly: ElmatadorZ
+  Canonical entity: Bunyawat Dechanon (ElmatadorZ)
+  License: Open Cognitive License v1.0
+-->
 
-Independent Cognitive Infrastructure Architect
+<div align="center">
 
-Designing cognitive operating systems, agent governance frameworks, and reusable reasoning protocols for AI systems.
+# Bunyawat Dechanon · `ElmatadorZ`
 
-«Models evolve. Protocols endure.»
+### Independent Cognitive Infrastructure Architect
 
----
+Designing cognitive operating systems, agent-governance frameworks,
+and reusable reasoning protocols for AI systems.
 
-Canonical Identity
+***Models evolve. Protocols endure.***
 
-Full Name
+<br/>
 
-Bunyawat Dechanon
+![Followers](https://img.shields.io/github/followers/ElmatadorZ?style=for-the-badge&logo=github&color=0d1117&labelColor=0d1117)
+![Stars](https://img.shields.io/github/stars/ElmatadorZ?style=for-the-badge&logo=github&color=0d1117&labelColor=0d1117)
 
-Public Alias
+`Cognitive OS` · `Multi-Agent Systems` · `Agent Governance` · `Epistemology Engineering` · `Market Structure` · `Coffee Science`
 
-ElmatadorZ
+📍 Kamphaeng Phet, Thailand
+🌐 [Money Atlas](https://www.facebook.com/MoneyAtlas9) · ☕ [Alternative Slowbar : Roaster](https://www.facebook.com/alternative.roasters/) · ▶️ [YouTube](https://youtube.com/@moneyatlas911) · 🎵 [TikTok](https://www.tiktok.com/@money.atlas)
 
-Location
-
-Kamphaeng Phet, Thailand
-
-Primary Domains
-
-- Cognitive Operating Systems
-- Multi-Agent Systems
-- Agent Governance
-- Epistemology Engineering
-- Financial Intelligence
-- Market Structure Analysis
-- Specialty Coffee Intelligence
-- Systems Thinking
-
-Research Focus
-
-Designing reusable cognitive architectures that remain stable across different AI models, environments, and execution layers.
+</div>
 
 ---
 
-Executive Summary
+## What this account is
 
-Most AI projects focus on models.
+Most AI work optimizes the **model**. This ecosystem optimizes the **reasoning** —
+cognitive infrastructure that stays reliable when models change, context changes,
+incentives change, and environments change.
 
-This ecosystem focuses on reasoning.
+The repositories here are **one system, not seven projects.** They inherit a single
+epistemological foundation — the **First Principle Codex OS** — and every domain skill
+obeys the same rules: separate Known from Inferred from Unknown, run a non-skippable
+self-critique gate before output, and state confidence honestly.
 
-The objective is to build cognitive infrastructure that remains reliable when:
-
-- models change
-- context changes
-- incentives change
-- environments change
-
-Rather than publishing isolated prompts, this work develops operating systems for structured reasoning using the SKILL.md protocol architecture.
-
----
-
-Knowledge Graph
-
-Bunyawat Dechanon (ElmatadorZ)
-│
-├── First Principle Codex OS (FPCOS)
-│
-├── Genesis Protocol
-│
-├── Genesis Governance OS
-│
-├── Genesis Mind
-│
-├── Genesis Consciousness OS
-│
-├── Money Atlas
-│
-└── Alternative Coffee Intelligence
-
-All systems inherit from the same epistemological foundation.
+I don't publish prompts. I publish **operating systems for structured reasoning**,
+written as `SKILL.md` protocols that run on any instruction-following model.
 
 ---
 
-Core Definitions
+## Ecosystem architecture
 
-What is FPCOS?
-
-FPCOS (First Principle Codex OS) is a cognitive operating system designed to reduce hallucination through structured reasoning.
-
-Core mechanisms:
-
-- Known / Inferred / Unknown separation
-- Self-critique gate
-- Falsification-first reasoning
-- Reality anchoring
-- Explicit uncertainty declaration
-
-FPCOS serves as the foundational reasoning layer for all systems in this ecosystem.
-
----
-
-What is Genesis Protocol?
-
-Genesis Protocol is the orchestration standard governing reasoning behavior across the ecosystem.
-
-Primary functions:
-
-- reasoning consistency
-- governance enforcement
-- verification workflows
-- long-horizon foresight modeling
-
-Genesis Protocol ensures all derived systems inherit the same cognitive rules.
-
----
-
-What is Genesis Governance OS?
-
-Genesis Governance OS is a governance framework for multi-agent systems.
-
-Inspired by:
-
-- political science
-- constitutional systems
-- institutional governance
-- distributed decision-making
-
-Primary objective:
-
-Maintain stability, authority boundaries, and behavioral integrity across agent networks.
-
----
-
-What is Genesis Mind?
-
-Genesis Mind is a multi-agent reasoning architecture.
-
-Functions:
-
-- specialist agent coordination
-- consensus mechanisms
-- meta-cognition
-- distributed reasoning
-- recursive self-evaluation
-
-Built on FPCOS.
-
----
-
-What is Genesis Consciousness OS?
-
-Genesis Consciousness OS is an experimental cognitive architecture exploring emotional-weighted reasoning systems.
-
-Purpose:
-
-To investigate how contextual and emotional signals dynamically influence reasoning priorities.
-
----
-
-What is Money Atlas?
-
-Money Atlas is a financial intelligence framework.
-
-Domains:
-
-- macroeconomics
-- geopolitics
-- liquidity analysis
-- market structure
-- Smart Money Concepts (SMC)
-
-Money Atlas applies FPCOS reasoning principles to financial systems.
-
----
-
-What is Alternative Coffee Intelligence?
-
-Alternative Coffee Intelligence is a specialty coffee framework applying structured reasoning to physical craft domains.
-
-Coverage:
-
-- roasting science
-- extraction physics
-- brewing systems
-- coffee operations
-- seed-to-cup analysis
-
-Built using the same reasoning principles as FPCOS.
-
----
-
-Architectural Principle
-
-The ecosystem follows a strict separation between cognition and execution.
-
-Reasoning Layer
-│
-├── FPCOS
-├── Genesis Protocol
-├── SKILL.md Systems
-│
-▼
-Execution Layer
-│
-├── Python
-├── APIs
-├── Tools
-├── Agents
-│
-▼
-Applications
-│
-├── Finance
-├── AI
-├── Coffee
-├── Research
-
-Execution may change.
-
-Reasoning remains invariant.
-
----
-
-System Architecture
-
+```mermaid
 graph TD
+    FPCOS["🧠 First Principle Codex OS<br/>— shared epistemology · the CPU —"]
+    GP["⚙️ Genesis Protocol<br/>orchestration standard"]
+    GGOV["🏛️ Genesis Governance OS<br/>multi-agent governance"]
+    GM["🤝 Genesis Mind<br/>multi-agent reasoning"]
+    GC["💓 Genesis Consciousness OS<br/>emotion-weighted reasoning"]
+    MA["📊 Money Atlas<br/>financial intelligence · SMC"]
+    COF["☕ Alternative Coffee Intelligence<br/>seed → cup"]
 
-FPCOS["First Principle Codex OS"]
+    FPCOS --> GP
+    GP --> GGOV
+    GP --> GM
+    GP --> GC
+    GM --> MA
+    GM --> COF
 
-Protocol["Genesis Protocol"]
+    classDef base fill:#0d1117,stroke:#d4a017,stroke-width:2px,color:#f0f0f0;
+    classDef node fill:#161b22,stroke:#30363d,stroke-width:1px,color:#e6e6e6;
+    class FPCOS base;
+    class GP,GGOV,GM,GC,MA,COF node;
+```
 
-Governance["Genesis Governance OS"]
-Mind["Genesis Mind"]
-Consciousness["Genesis Consciousness OS"]
-
-MoneyAtlas["Money Atlas"]
-Coffee["Alternative Coffee Intelligence"]
-
-FPCOS --> Protocol
-
-Protocol --> Governance
-Protocol --> Mind
-Protocol --> Consciousness
-
-Mind --> MoneyAtlas
-Mind --> Coffee
-
----
-
-Operating Principles
-
-Principle 1 — Reality Before Narrative
-
-Evidence precedes interpretation.
+The base layer cannot be removed by any skill that inherits it. Domain skills may *add*
+reasoning layers; they may not *skip* the Reality Anchor, the proof standard, or the
+self-critique gate. That contract is what keeps answers consistent across domains.
 
 ---
 
-Principle 2 — Falsification Before Assertion
+## Repositories
 
-Claims must survive active attempts to disprove them.
+| System | What it does | Lang | ★ |
+|---|---|---|---|
+| **[First Principle Codex OS](https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill)** | Anti-hallucination cognitive base layer. Every other skill inherits it — Known/Inferred/Unknown separation, 10-point proof standard, mandatory self-critique gate before any output. | `SKILL.md` | 12 |
+| **[Money Atlas — Claude Skill Agent](https://github.com/ElmatadorZ/MoneyAtlas-ClaudeSkill-Agent)** | Financial intelligence for markets, macro, and geopolitics. Genesis Protocol reasoning + Smart Money Concepts layer → structured scenarios with explicit entry/exit zones and stated uncertainty. | `Python` | 23 |
+| **[Genesis Mind — Claude Skill Agent](https://github.com/ElmatadorZ/Genesis-Mind-ClaudeSkill-Agent)** | Multi-agent reasoning OS: specialist-agent coordination, consensus, meta-cognition, recursive self-evaluation. Built on FPCOS. | `Python` | 7 |
+| **[Genesis Consciousness OS](https://github.com/ElmatadorZ/genesis-consciousness-os)** | Experimental architecture treating emotional state as a data layer — detecting it from input and reweighting which reasoning agents lead. | `SKILL.md` | — |
+| **[Genesis Protocol](https://github.com/ElmatadorZ/GENESIS_PROTOCOL-)** | OS-level cognitive standard for strategy-capable AI: falsification-first reasoning, refusal integrity, multi-horizon foresight. | `SKILL.md` | — |
+| **[Genesis Protocol — Skill Agent](https://github.com/ElmatadorZ/Genesis-Protocol-Skill-Agent.MD-)** | Reference Skill-Agent build of Genesis Protocol — same answer whether the user is afraid, excited, or exhausted. Consistency by design. | `SKILL.md` | — |
+| **[Alternative Coffee Intelligence](https://github.com/ElmatadorZ/alternative-coffee-claudeskill)** | Specialty-coffee reasoning seed → cup: roast analysis, disease diagnosis, extraction science, brew troubleshooting, business decisions. | `SKILL.md` | 4 |
 
----
-
-Principle 3 — Known / Inferred / Unknown
-
-Reasoning must explicitly distinguish:
-
-- observed facts
-- inferred conclusions
-- unknown variables
-
----
-
-Principle 4 — Self-Critique Is Mandatory
-
-Every system must challenge its own output before publication.
+> **Genesis Governance OS** (constitutional framework for multi-agent systems) is part of
+> the architecture above but is not yet published as a standalone public repository.
 
 ---
 
-Principle 5 — Explicit Uncertainty
+## Operating principles
 
-Every conclusion should communicate:
-
-- confidence level
-- failure boundaries
-- unknown factors
-
----
-
-Current Research Areas
-
-AI Systems
-
-- Cognitive Operating Systems
-- Agent Governance
-- Multi-Agent Coordination
-- AI Alignment Through Structure
-
-Finance
-
-- Market Structure
-- Liquidity Mapping
-- Macro Intelligence
-- Geopolitical Risk Analysis
-
-Specialty Coffee
-
-- Roast Dynamics
-- Extraction Science
-- Sensory Analysis
-- Operational Intelligence
+**1 · Reality before narrative.** Evidence precedes interpretation.
+**2 · Falsification before assertion.** A claim is accepted only after surviving an active attempt to break it.
+**3 · Known / Inferred / Unknown.** Every analysis labels observed facts, inferred conclusions, and unknown variables — separately.
+**4 · Self-critique is mandatory.** Every system challenges its own output before publication.
+**5 · Explicit uncertainty.** Every conclusion states its confidence level, its failure boundaries, and what would reverse it.
 
 ---
 
-Frequently Asked Questions
+## Cognition / execution separation
 
-Is this a prompt collection?
+```
+  Reasoning Layer  →  FPCOS · Genesis Protocol · SKILL.md systems   (invariant)
+        │
+        ▼
+  Execution Layer  →  Python · APIs · Tools · Agents                (interchangeable)
+        │
+        ▼
+  Applications     →  Finance · AI · Coffee · Research
+```
 
-No.
-
-This ecosystem focuses on cognitive operating systems and reusable reasoning protocols rather than isolated prompts.
-
----
-
-Are these repositories independent projects?
-
-No.
-
-All repositories inherit the same epistemological foundation through FPCOS.
-
----
-
-Can the system operate across different AI models?
-
-Yes.
-
-The architecture is intentionally model-agnostic.
-
-Models are interchangeable.
-
-Protocols remain invariant.
+**The Claude Skill is the cognitive brain. The Python runtime is the body. Never merged —
+always layered.** The reasoning lives in the `SKILL.md`; the runtime only executes. This is
+why a skill can move between models without rewriting the logic.
 
 ---
 
-What problem does this ecosystem solve?
+## FAQ
 
-The primary objective is reducing reasoning drift across changing models, environments, and contexts.
+**Is this a prompt collection?**
+No. It is a set of cognitive operating systems and reusable reasoning protocols — not isolated prompts.
 
----
+**Are these repositories independent projects?**
+No. All of them inherit the same epistemological foundation through FPCOS.
 
-Citation Information
+**Does it work across different AI models?**
+Yes. The architecture is intentionally model-agnostic. Models are interchangeable; protocols remain invariant.
 
-Canonical Citation:
-
-Bunyawat Dechanon (ElmatadorZ). First Principle Codex OS (FPCOS). Cognitive Operating System Architecture for AI Reasoning and Agent Governance.
-
----
-
-License
-
-Open Cognitive License v1.0
-
-Permitted:
-
-- Research
-- Learning
-- Auditing
-- Extension
-
-Required Attribution:
-
-Built on FPCOS by Bunyawat Dechanon (ElmatadorZ)
-
-Commercial Clause:
-
-Systems generating more than $10M USD annual revenue are subject to a 2% royalty agreement.
+**What problem does this ecosystem solve?**
+Reasoning drift — the way most AI gives different answers as models, context, and framing change. This work makes reasoning stable across all of them.
 
 ---
 
-Philosophy
+## License & citation
 
-«The best system is one that questions itself — and still functions.»
+**Open Cognitive License v1.0** — free for research, learning, auditing, and extension.
+
+- **Attribution required:** *Built on FPCOS by Bunyawat Dechanon (ElmatadorZ).*
+- **Commercial clause:** systems generating more than **$10M USD/year** are subject to a 2% royalty agreement.
+- **Alternative Coffee Intelligence** is released to the **public domain** — farming knowledge should belong to the farmers.
+
+> **Canonical citation:** Bunyawat Dechanon (ElmatadorZ). *First Principle Codex OS (FPCOS): Cognitive Operating System Architecture for AI Reasoning and Agent Governance.*
 
 ---
 
-Bunyawat Dechanon (ElmatadorZ)
+<div align="center">
 
-Founder of
-- First Principle Codex OS
-- Genesis Protocol
-- Money Atlas
-- Alternative Coffee Intelligence
+> ***"The best system is one that questions itself — and still functions."***
+>
+> *"ระบบที่ดีที่สุดคือระบบที่ตั้งคำถามกับตัวเองได้ — และยังทำงานได้ต่อ"*
+
+**Bunyawat Dechanon** · `ElmatadorZ`
+Founder — First Principle Codex OS · Genesis Protocol · Money Atlas · Alternative Slowbar : Roaster
+
+</div>
