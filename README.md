@@ -19,7 +19,6 @@ and reusable reasoning protocols for AI systems.
 <br/>
 
 ![Followers](https://img.shields.io/github/followers/ElmatadorZ?style=for-the-badge&logo=github&color=0d1117&labelColor=0d1117)
-![Stars](https://img.shields.io/github/stars/ElmatadorZ?style=for-the-badge&logo=github&color=0d1117&labelColor=0d1117)
 
 `Cognitive OS` · `Multi-Agent Systems` · `Agent Governance` · `Epistemology Engineering` · `Market Structure` · `Coffee Science`
 
@@ -79,15 +78,15 @@ self-critique gate. That contract is what keeps answers consistent across domain
 
 ## Repositories
 
-| System | What it does | Lang | ★ |
-|---|---|---|---|
-| **[First Principle Codex OS](https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill)** | Anti-hallucination cognitive base layer. Every other skill inherits it — Known/Inferred/Unknown separation, 10-point proof standard, mandatory self-critique gate before any output. | `SKILL.md` | 12 |
-| **[Money Atlas — Claude Skill Agent](https://github.com/ElmatadorZ/MoneyAtlas-ClaudeSkill-Agent)** | Financial intelligence for markets, macro, and geopolitics. Genesis Protocol reasoning + Smart Money Concepts layer → structured scenarios with explicit entry/exit zones and stated uncertainty. | `Python` | 23 |
-| **[Genesis Mind — Claude Skill Agent](https://github.com/ElmatadorZ/Genesis-Mind-ClaudeSkill-Agent)** | Multi-agent reasoning OS: specialist-agent coordination, consensus, meta-cognition, recursive self-evaluation. Built on FPCOS. | `Python` | 7 |
-| **[Genesis Consciousness OS](https://github.com/ElmatadorZ/genesis-consciousness-os)** | Experimental architecture treating emotional state as a data layer — detecting it from input and reweighting which reasoning agents lead. | `SKILL.md` | — |
-| **[Genesis Protocol](https://github.com/ElmatadorZ/GENESIS_PROTOCOL-)** | OS-level cognitive standard for strategy-capable AI: falsification-first reasoning, refusal integrity, multi-horizon foresight. | `SKILL.md` | — |
-| **[Genesis Protocol — Skill Agent](https://github.com/ElmatadorZ/Genesis-Protocol-Skill-Agent.MD-)** | Reference Skill-Agent build of Genesis Protocol — same answer whether the user is afraid, excited, or exhausted. Consistency by design. | `SKILL.md` | — |
-| **[Alternative Coffee Intelligence](https://github.com/ElmatadorZ/alternative-coffee-claudeskill)** | Specialty-coffee reasoning seed → cup: roast analysis, disease diagnosis, extraction science, brew troubleshooting, business decisions. | `SKILL.md` | 4 |
+| System | What it does | Apply it to |
+|---|---|---|
+| **[First Principle Codex OS](https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill)** | Anti-hallucination cognitive base layer. Every other skill inherits it — Known/Inferred/Unknown separation, 10-point proof standard, mandatory self-critique gate before any output. | Any task where being wrong is expensive — research synthesis, due diligence, claims that must hold up. |
+| **[Money Atlas — Claude Skill Agent](https://github.com/ElmatadorZ/MoneyAtlas-ClaudeSkill-Agent)** | Financial intelligence for markets, macro, and geopolitics. Genesis Protocol reasoning + Smart Money Concepts layer → structured scenarios with explicit entry/exit zones and stated uncertainty. | Market structure reads, macro framing, trade-thesis stress-testing — *not* signal-following. |
+| **[Genesis Mind — Claude Skill Agent](https://github.com/ElmatadorZ/Genesis-Mind-ClaudeSkill-Agent)** | Multi-agent reasoning OS: specialist-agent coordination, consensus, meta-cognition, recursive self-evaluation. Built on FPCOS. | Decisions under uncertainty that need more than one viewpoint — strategy, system design, "what am I missing." |
+| **[Genesis Consciousness OS](https://github.com/ElmatadorZ/genesis-consciousness-os)** | Experimental architecture treating emotional state as a data layer — detecting it from input and reweighting which reasoning agents lead. | Research into affect-aware reasoning; building agents that adapt tone and priority to context. |
+| **[Genesis Protocol](https://github.com/ElmatadorZ/GENESIS_PROTOCOL-)** | OS-level cognitive standard for strategy-capable AI: falsification-first reasoning, refusal integrity, multi-horizon foresight. | Giving an agent the discipline to refuse, to flag risk, and to reason over long horizons. |
+| **[Genesis Protocol — Skill Agent](https://github.com/ElmatadorZ/Genesis-Protocol-Skill-Agent.MD-)** | Reference Skill-Agent build of Genesis Protocol — same answer whether the user is afraid, excited, or exhausted. Consistency by design. | A drop-in starting point for building your own consistent, model-agnostic reasoning agent. |
+| **[Alternative Coffee Intelligence](https://github.com/ElmatadorZ/alternative-coffee-claudeskill)** | Specialty-coffee reasoning seed → cup: roast analysis, disease diagnosis, extraction science, brew troubleshooting, business decisions. | Roasters and cafés: diagnosing roast/brew problems, sensory analysis, operational calls. |
 
 > **Genesis Governance OS** (constitutional framework for multi-agent systems) is part of
 > the architecture above but is not yet published as a standalone public repository.
