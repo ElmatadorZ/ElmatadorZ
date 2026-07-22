@@ -29,6 +29,14 @@ and reusable reasoning protocols for AI systems.
 
 ---
 
+> **🚀 Latest — [Genesis OS · Cognitive Agent Architecture Blueprint](https://github.com/ElmatadorZ/genesis-os-blueprint)** · `Apache-2.0`
+> A **runnable** reference architecture for accountable AI agents: a cognitive kernel + ABI, a fail-closed
+> policy-hook surface, swappable model providers, and outcomes graded against **evidence — not claims.**
+> Docs · specs · ADRs · a dependency-free Python reference · [wiki](https://github.com/ElmatadorZ/genesis-os-blueprint/wiki).
+> *Capability must never outrun accountability.*
+
+---
+
 ## What this account is
 
 Most AI work optimizes the **model**. This ecosystem optimizes the **reasoning** —
@@ -63,11 +71,13 @@ graph TD
     GP --> GC
     GM --> MA
     GM --> COF
+    GP --> GOSB["🚀 Genesis OS Blueprint<br/>runnable agent architecture · Apache-2.0"]
+    GGOV --> GOSB
 
     classDef base fill:#0d1117,stroke:#d4a017,stroke-width:2px,color:#f0f0f0;
     classDef node fill:#161b22,stroke:#30363d,stroke-width:1px,color:#e6e6e6;
     class FPCOS base;
-    class GP,GGOV,GM,GC,MA,COF node;
+    class GP,GGOV,GM,GC,MA,COF,GOSB node;
 ```
 
 The base layer cannot be removed by any skill that inherits it. Domain skills may *add*
@@ -81,6 +91,7 @@ self-critique gate. That contract is what keeps answers consistent across domain
 | System | What it does | Apply it to |
 |---|---|---|
 | **[First Principle Codex OS](https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill)** | Anti-hallucination cognitive base layer. Every other skill inherits it — Known/Inferred/Unknown separation, 10-point proof standard, mandatory self-critique gate before any output. | Any task where being wrong is expensive — research synthesis, due diligence, claims that must hold up. |
+| **[Genesis OS — Cognitive Agent Architecture Blueprint](https://github.com/ElmatadorZ/genesis-os-blueprint)** `Apache-2.0` | A runnable, model-independent agent architecture: a Cognitive Kernel + ABI, a fail-closed Policy Hook Surface, swappable Capability Providers, and a Reality Grading Loop that grades outcomes against evidence — not the model's own claims. Ships docs, framework-agnostic specs, ADRs, a dependency-free Python reference, and a [wiki](https://github.com/ElmatadorZ/genesis-os-blueprint/wiki). | Building agent systems whose capability never outruns their accountability — implement the blueprint, or conform your own build to the reference. |
 | **[Money Atlas — Claude Skill Agent](https://github.com/ElmatadorZ/MoneyAtlas-ClaudeSkill-Agent)** | Financial intelligence for markets, macro, and geopolitics. Genesis Protocol reasoning + Smart Money Concepts layer → structured scenarios with explicit entry/exit zones and stated uncertainty. | Market structure reads, macro framing, trade-thesis stress-testing — *not* signal-following. |
 | **[Genesis Mind — Claude Skill Agent](https://github.com/ElmatadorZ/Genesis-Mind-ClaudeSkill-Agent)** | Multi-agent reasoning OS: specialist-agent coordination, consensus, meta-cognition, recursive self-evaluation. Built on FPCOS. | Decisions under uncertainty that need more than one viewpoint — strategy, system design, "what am I missing." |
 | **[Genesis Consciousness OS](https://github.com/ElmatadorZ/genesis-consciousness-os)** | Experimental architecture treating emotional state as a data layer — detecting it from input and reweighting which reasoning agents lead. | Research into affect-aware reasoning; building agents that adapt tone and priority to context. |
