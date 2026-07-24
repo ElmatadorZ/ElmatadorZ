@@ -201,6 +201,9 @@ endorsement.
 
 - **Attribution:** *Built on FPCOS by Bunyawat Dechanon (ElmatadorZ)* — carried in each `NOTICE`.
 - **Patent grant and termination** are Apache-2.0 standard, in both directions.
+- **One exception, on purpose:** [Alternative Coffee Intelligence](https://github.com/ElmatadorZ/alternative-coffee-claudeskill)
+  is **[CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)** — public domain, no
+  attribution asked. Farming knowledge should belong to the farmers.
 
 > **Canonical citation:** Bunyawat Dechanon (ElmatadorZ). *First Principle Codex OS (FPCOS):
 > Cognitive Operating System Architecture for AI Reasoning and Agent Governance.*
