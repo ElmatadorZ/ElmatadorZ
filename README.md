@@ -30,7 +30,29 @@ and reusable reasoning protocols for AI systems.
 
 ---
 
-> **🚀 Latest — [SkynetClaw · THE HOUSE](https://github.com/ElmatadorZ/skynetclaw)** · `Apache-2.0`
+> **🚀 Latest — [Meta-Cognition Agent OS](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS)** · `Apache-2.0`
+> [![validate](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/actions/workflows/validate.yml/badge.svg)](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/actions/workflows/validate.yml)
+>
+> **The flagship — every system below, distilled into one file.** IQ is thinking. EQ is thinking
+> about feeling. This is thinking about thinking.
+>
+> Ask any model to reflect and it will reflect, fluently — *"let me examine my assumptions"* names
+> no assumption, costs nothing, and is indistinguishable from having done the work. Every
+> meta-cognition framework can be satisfied that way, which means none of them was ever enforcing
+> anything.
+>
+> So this one rests on a single law: **a meta-cognitive step that changed nothing did not happen.**
+> Name what changed, or report the step skipped. It is the only requirement fluency cannot fake,
+> and every other rule is written as an observable property of an output — so a third party can
+> check a build without trusting it.
+>
+> One `SKILL.md`. No tools, no runtime, no dependencies. Runs on Claude, GPT, Gemini, OpenClaw,
+> Hermes, or anything that reads a system prompt.
+> [The five levels](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/blob/main/spec/LEVELS.md) ·
+> [Conformance](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/blob/main/spec/CONFORMANCE.md) ·
+> [See it fail first](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/blob/main/examples/worked/01-the-failure-case.md)
+
+> **[SkynetClaw · THE HOUSE](https://github.com/ElmatadorZ/skynetclaw)** · `Apache-2.0`
 > [![CI](https://github.com/ElmatadorZ/skynetclaw/actions/workflows/ci.yml/badge.svg)](https://github.com/ElmatadorZ/skynetclaw/actions/workflows/ci.yml)
 >
 > The architecture above, **actually running.** A council of 14 agents with an institutional
@@ -78,6 +100,7 @@ graph TD
     COF["☕ Alternative Coffee Intelligence<br/>seed → cup"]
     GOSB["📐 Genesis OS Blueprint<br/>runnable reference architecture"]
     SC["🏛️ SkynetClaw · THE HOUSE<br/>the architecture, running"]
+    MCOS["🧭 Meta-Cognition Agent OS<br/>— the synthesis · one organ from each —"]
 
     FPCOS --> GP
     GP --> GGOV
@@ -92,17 +115,35 @@ graph TD
     GOSB --> SC
     RG --> SC
 
+    FPCOS -.-> MCOS
+    GP -.-> MCOS
+    GGOV -.-> MCOS
+    GM -.-> MCOS
+    GC -.-> MCOS
+    RG -.-> MCOS
+    SC -.-> MCOS
+
     classDef base fill:#0d1117,stroke:#d4a017,stroke-width:2px,color:#f0f0f0;
     classDef ship fill:#161b22,stroke:#2ea043,stroke-width:2px,color:#f0f0f0;
+    classDef flag fill:#0d1117,stroke:#8957e5,stroke-width:3px,color:#f0f0f0;
     classDef node fill:#161b22,stroke:#30363d,stroke-width:1px,color:#e6e6e6;
     class FPCOS base;
     class SC,GOSB ship;
+    class MCOS flag;
     class GP,GGOV,GM,GC,RG,MA,FR,COF node;
 ```
 
 The base layer cannot be removed by any skill that inherits it. Domain skills may *add*
 reasoning layers; they may not *skip* the Reality Anchor, the proof standard, or the
 self-critique gate. That contract is what keeps answers consistent across domains.
+
+The dotted edges run the other way. **Meta-Cognition Agent OS is not built *on* the ecosystem —
+it is built *from* it**: one operation per ancestor, each earning its place by having caught a
+real defect in something that ran. Monitoring and the shadow gate from FPCOS, falsification from
+Genesis Protocol, multi-frame flexibility from Genesis Mind, state-as-data from Consciousness OS,
+authority limits from Governance OS, EARNED/UNEARNED calibration from Reality Grading, and the
+self-development loop from SkynetClaw — where it was actually closed, and where its failures were
+measured.
 
 ---
 
@@ -123,6 +164,7 @@ Model-agnostic `SKILL.md` systems — the cognition, not the runtime.
 
 | System | What it does | Apply it to |
 |---|---|---|
+| **[Meta-Cognition Agent OS](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS)** `Apache-2.0` | The flagship, and the synthesis of everything below it. A control layer that governs *how* an agent thinks rather than what it concludes: five operations, five levels read from the **tell in the output** rather than self-declared, a non-skippable shadow gate that may refuse, confidence carrying `EARNED` or `UNEARNED`, and a promotion rule — three cited instances up, one counter-instance down, nothing deleted, dormancy made visible. Conformance IDs `MC-0`…`MC-9`, each written as an observable property of an output. | Any agent whose confidence you cannot currently check — and any framework you suspect is being satisfied by writing as if it had been followed. |
 | **[First Principle Codex OS](https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill)** `Apache-2.0` | The anti-hallucination base layer every other skill inherits: Known / Inferred / Unknown separation, a 10-point proof standard, and a mandatory self-critique gate before any output. | Any task where being wrong is expensive — research synthesis, due diligence, claims that must hold up. |
 | **[Genesis Protocol](https://github.com/ElmatadorZ/GENESIS_PROTOCOL-)** `Apache-2.0` | OS-level cognitive standard for strategy-capable AI: falsification-first reasoning, refusal integrity, multi-horizon foresight. | Giving an agent the discipline to refuse, to flag risk, and to reason over long horizons. |
 | **[Genesis Protocol — Skill Agent](https://github.com/ElmatadorZ/Genesis-Protocol-Skill-Agent.MD-)** | Reference Skill-Agent build of Genesis Protocol — the same answer whether the user is afraid, excited, or exhausted. Consistency by design. | A drop-in starting point for your own consistent, model-agnostic reasoning agent. |
