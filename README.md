@@ -50,7 +50,8 @@ and reusable reasoning protocols for AI systems.
 > Hermes, or anything that reads a system prompt.
 > [The five levels](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/blob/main/spec/LEVELS.md) ·
 > [Conformance](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/blob/main/spec/CONFORMANCE.md) ·
-> [See it fail first](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/blob/main/examples/worked/01-the-failure-case.md)
+> [Wiki, 13 pages](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/wiki) ·
+> [See it fail first](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS/wiki/Failure-Modes)
 
 > **[SkynetClaw · THE HOUSE](https://github.com/ElmatadorZ/skynetclaw)** · `Apache-2.0`
 > [![CI](https://github.com/ElmatadorZ/skynetclaw/actions/workflows/ci.yml/badge.svg)](https://github.com/ElmatadorZ/skynetclaw/actions/workflows/ci.yml)
