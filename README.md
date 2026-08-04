@@ -69,6 +69,23 @@ and reusable reasoning protocols for AI systems.
 
 ---
 
+## Start here
+
+Fifteen repositories, one system. If you are new, you do not need all of them —
+you need one of these three, depending on what you came for.
+
+| If you want to… | Start with | Install |
+|---|---|---|
+| **make an agent's reasoning checkable** — stop invented specifics, meaningless confidence, agents that never refuse | **[Meta-Cognition Agent OS](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS)** | `pip install meta-cognition-agent-os` |
+| **reduce hallucination in one skill** — the epistemic base layer everything else inherits | **[First Principle Codex OS](https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill)** | copy `SKILL.md` |
+| **run a system, not read a spec** — a council with institutional memory that grades its own predictions | **[SkynetClaw](https://github.com/ElmatadorZ/skynetclaw)** | `git clone` · FastAPI + SQLite |
+
+Everything else on this page is either a **layer one of those three is built on**,
+or a **domain application** of them. All repositories are tagged, so any of them can
+be pinned to a version.
+
+---
+
 ## What this account is
 
 Most AI work optimizes the **model**. This ecosystem optimizes the **reasoning** —
@@ -97,7 +114,6 @@ graph TD
     GC["💓 Genesis Consciousness OS<br/>emotion-weighted reasoning"]
     RG["🎯 Reality Grading<br/>claims graded against outcomes"]
     MA["📊 Money Atlas<br/>financial intelligence · SMC"]
-    FR["🚚 FreightAgents<br/>logistics reasoning"]
     COF["☕ Alternative Coffee Intelligence<br/>seed → cup"]
     GOSB["📐 Genesis OS Blueprint<br/>runnable reference architecture"]
     SC["🏛️ SkynetClaw · THE HOUSE<br/>the architecture, running"]
@@ -109,7 +125,6 @@ graph TD
     GP --> GC
     GP --> RG
     GM --> MA
-    GM --> FR
     GM --> COF
     GP --> GOSB
     GGOV --> GOSB
@@ -131,7 +146,7 @@ graph TD
     class FPCOS base;
     class SC,GOSB ship;
     class MCOS flag;
-    class GP,GGOV,GM,GC,RG,MA,FR,COF node;
+    class GP,GGOV,GM,GC,RG,MA,COF node;
 ```
 
 The base layer cannot be removed by any skill that inherits it. Domain skills may *add*
@@ -168,7 +183,6 @@ Model-agnostic `SKILL.md` systems — the cognition, not the runtime.
 | **[Meta-Cognition Agent OS](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS)** `Apache-2.0` | The flagship, and the synthesis of everything below it. A control layer that governs *how* an agent thinks rather than what it concludes: five operations, five levels read from the **tell in the output** rather than self-declared, a non-skippable shadow gate that may refuse, confidence carrying `EARNED` or `UNEARNED`, and a promotion rule — three cited instances up, one counter-instance down, nothing deleted, dormancy made visible. Conformance IDs `MC-0`…`MC-9`, each written as an observable property of an output. | Any agent whose confidence you cannot currently check — and any framework you suspect is being satisfied by writing as if it had been followed. |
 | **[First Principle Codex OS](https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill)** `Apache-2.0` | The anti-hallucination base layer every other skill inherits: Known / Inferred / Unknown separation, a 10-point proof standard, and a mandatory self-critique gate before any output. | Any task where being wrong is expensive — research synthesis, due diligence, claims that must hold up. |
 | **[Genesis Protocol](https://github.com/ElmatadorZ/GENESIS_PROTOCOL-)** `Apache-2.0` | OS-level cognitive standard for strategy-capable AI: falsification-first reasoning, refusal integrity, multi-horizon foresight. | Giving an agent the discipline to refuse, to flag risk, and to reason over long horizons. |
-| **[Genesis Protocol — Skill Agent](https://github.com/ElmatadorZ/Genesis-Protocol-Skill-Agent.MD-)** | Reference Skill-Agent build of Genesis Protocol — the same answer whether the user is afraid, excited, or exhausted. Consistency by design. | A drop-in starting point for your own consistent, model-agnostic reasoning agent. |
 | **[Genesis Mind](https://github.com/ElmatadorZ/Genesis-Mind-ClaudeSkill-Agent)** | Multi-agent reasoning OS: specialist coordination, consensus, meta-cognition, recursive self-evaluation. Built on FPCOS. | Decisions under uncertainty that need more than one viewpoint — strategy, system design, *"what am I missing."* |
 | **[Genesis Consciousness OS](https://github.com/ElmatadorZ/genesis-consciousness-os)** `Apache-2.0` | Experimental architecture treating emotional state as a data layer — detecting it from input and reweighting which reasoning agents lead. | Research into affect-aware reasoning; agents that adapt tone and priority to context. |
 
@@ -177,7 +191,6 @@ Model-agnostic `SKILL.md` systems — the cognition, not the runtime.
 | System | What it does | Apply it to |
 |---|---|---|
 | **[Money Atlas](https://github.com/ElmatadorZ/MoneyAtlas-ClaudeSkill-Agent)** `Apache-2.0` | Financial intelligence for markets, macro, and geopolitics. Genesis Protocol reasoning + a Smart Money Concepts layer → structured scenarios with explicit entry/exit zones and stated uncertainty. | Market-structure reads, macro framing, trade-thesis stress-testing — *not* signal-following. |
-| **[FreightAgents](https://github.com/ElmatadorZ/FreightAgents-Skill.MD)** `Apache-2.0` | Logistics and freight reasoning built on the same base layer — routing, cost structure, and risk framed as decisions rather than quotes. | Freight operations where the expensive mistake is a confident wrong answer. |
 | **[Alternative Coffee Intelligence](https://github.com/ElmatadorZ/alternative-coffee-claudeskill)** | Specialty-coffee reasoning seed → cup: roast analysis, disease diagnosis, extraction science, brew troubleshooting, business decisions. | Roasters and cafés — diagnosing roast and brew problems, sensory analysis, operational calls. |
 
 ---
