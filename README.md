@@ -11,8 +11,11 @@
 
 ### Independent Cognitive Infrastructure Architect
 
-Designing cognitive operating systems, agent-governance frameworks,
-and reusable reasoning protocols for AI systems.
+Cognitive operating systems, agent-governance frameworks, and reusable
+reasoning protocols — as specifications you can check, and systems you can run.
+
+> ### Capability must never outrun accountability.
+> *A system may be trusted only with what it can be held to afterwards.*
 
 ***Models evolve. Protocols endure.***
 
@@ -172,7 +175,7 @@ Installable, tested, `Apache-2.0`.
 | **[SkynetClaw · THE HOUSE](https://github.com/ElmatadorZ/skynetclaw)** | An institutional-intelligence operating system. 14-agent council, one SQLite institutional memory, recall that returns *justified* history rather than raw text, a constitution enforced rather than advised, Bayesian calibrated reputation, and predictions graded at 7 / 30 / 90 / 180 days. 56 tools, 267 routes, 606 tests, CI on two operating systems and three Python versions. | Running a council that remembers, on your own hardware — and being able to ask it *why* it believes something. |
 | **[Genesis OS — Cognitive Agent Architecture Blueprint](https://github.com/ElmatadorZ/genesis-os-blueprint)** | The reference architecture: a Cognitive Kernel + ABI, a fail-closed Policy Hook Surface, swappable Capability Providers, and a Reality Grading Loop that grades outcomes against evidence — not the model's own claims. Docs, framework-agnostic specs, ADRs, a dependency-free Python reference, and a [wiki](https://github.com/ElmatadorZ/genesis-os-blueprint/wiki). | Building agent systems whose capability never outruns their accountability — implement the blueprint, or conform your own build to it. |
 | **[Genesis Reality Grading](https://github.com/ElmatadorZ/genesis-reality-grading)** | The discipline that separates a system that learns from one that only sounds like it: stake a falsifiable hypothesis, judge it with a *versioned* judge, and let the outcome revise the belief. An abstention is recorded as an abstention — never as a convenient zero. Conformance spec with stable requirement IDs. | Any agent that makes claims about the future and should be held to them. |
-| **[Genesis Governance OS](https://github.com/ElmatadorZ/genesis-governance-os)** | Constitutional framework for multi-agent systems: deny-by-default permissions, most-restrictive-wins policy resolution, irreversible actions gated on a human, preserved minority opinion, and an audit trail that is not optional. RFC-2119 conformance suite + [wiki](https://github.com/ElmatadorZ/genesis-governance-os/wiki). | Deciding what an autonomous system is *allowed* to do, and proving afterwards what it did. |
+| **[Genesis Governance OS](https://github.com/ElmatadorZ/genesis-governance-os)** | Constitutional framework for multi-agent systems: deny-by-default permissions, separation of powers, irreversible actions gated on a human, and an audit trail that is not optional. RFC-2119 conformance suite + [wiki](https://github.com/ElmatadorZ/genesis-governance-os/wiki). | Deciding what an autonomous system is *allowed* to do, and proving afterwards what it did. |
 
 ## Reasoning protocols
 
@@ -192,6 +195,25 @@ Model-agnostic `SKILL.md` systems — the cognition, not the runtime.
 |---|---|---|
 | **[Money Atlas](https://github.com/ElmatadorZ/MoneyAtlas-ClaudeSkill-Agent)** `Apache-2.0` | Financial intelligence for markets, macro, and geopolitics. Genesis Protocol reasoning + a Smart Money Concepts layer → structured scenarios with explicit entry/exit zones and stated uncertainty. | Market-structure reads, macro framing, trade-thesis stress-testing — *not* signal-following. |
 | **[Alternative Coffee Intelligence](https://github.com/ElmatadorZ/alternative-coffee-claudeskill)** | Specialty-coffee reasoning seed → cup: roast analysis, disease diagnosis, extraction science, brew troubleshooting, business decisions. | Roasters and cafés — diagnosing roast and brew problems, sensory analysis, operational calls. |
+
+---
+
+## Positions
+
+Four claims this work rests on. Each is stated so that a reader can disagree with
+it, and each has a repository where it is implemented rather than argued.
+
+| The claim | Where it is enforced rather than asserted |
+|---|---|
+| **A meta-cognitive step that changed nothing did not happen.** Every framework in this space can be satisfied by writing as if it had been followed — so the only requirement worth having is one that fluency cannot fake. | [Meta-Cognition Agent OS](https://github.com/ElmatadorZ/Meta-Cognition-Agent-OS) · `MC-0` |
+| **A provider's assertion is not evidence.** A prediction counts only once a versioned judge has graded it against an outcome, and an abstention is recorded as an abstention — never as a convenient zero. | [Genesis Reality Grading](https://github.com/ElmatadorZ/genesis-reality-grading) |
+| **Authority must be structured before it is granted.** Deny-by-default, separation of powers, and irreversible actions gated on a human — an autonomous system's permissions are a constitutional question, not a configuration one. | [Genesis Governance OS](https://github.com/ElmatadorZ/genesis-governance-os) |
+| **A named gap beats a confident guess.** Separating Known from Inferred from Unknown — and refusing to let an unsourceable claim reach the recommendation — is what makes the gap visible instead of quietly filled. | [First Principle Codex OS](https://github.com/ElmatadorZ/FirstPrincipleCodex-OS-Skill) |
+
+The point of putting them in code is that **none of them can be settled by agreeing
+with me.** A specification whose requirements are observable properties of an output
+can be checked by someone who does not trust its author — which is the only kind of
+claim worth publishing.
 
 ---
 
